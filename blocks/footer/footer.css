@@ -1,0 +1,198 @@
+.footer {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer__top {
+	display: flex;
+	margin-bottom: 34px;
+}
+
+.footer__about {
+	display: flex;
+	flex-direction: column;
+	margin: 0 98px 0 0;
+}
+
+.footer__list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.footer__about-list-item {
+	margin-bottom: 10px;
+}
+
+.footer__about-list-item:last-of-type {
+	margin-bottom: 0;
+}
+
+.footer__title {
+	width: 100%;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #656566;
+	margin: 0 0 20px;
+}
+
+.footer__link {
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #e4e5ea;
+}
+
+.footer__nav {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer__nav-list {
+	margin: 0 52px 0 0;
+}
+
+.footer__nav-list_type_mobile {
+	display: none;
+}
+
+.footer__nav-list-item {
+	margin-bottom: 10px;
+}
+
+.footer__nav-list-item:last-of-type {
+	margin-bottom: 0;
+}
+
+.footer__contacts {
+	margin-left: auto;
+	text-align: right;
+}
+
+.footer__contacts-list-item {
+	margin-bottom: 18px;
+}
+
+.footer__contacts-list-item:last-of-type {
+	margin-bottom: 0;
+}
+
+.footer__contacts-icon {
+	display: inline-block;
+	margin-left: 5px;
+	width: 100%;
+	max-width: 20px;
+}
+
+.footer__contacts-paragraph {
+	margin: 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.footer__bottom {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.footer__copyright {
+	margin: 0 0 5px;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.footer__politics {
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	color: #e4e5ea;
+}
+
+@media only screen and (max-width: 320px) {
+	.footer {
+		padding: 0 15px 0;
+	}
+
+	.footer__top {
+		flex-direction: column;
+		margin-bottom: 47px;
+	}
+
+	.footer__about {
+		margin: 0 0 27px 0;
+	}
+
+	.footer__title {
+		max-width: 290px;
+		font-size: 12px;
+		line-height: 15px;
+		margin: 0 0 20px;
+	}
+
+	.footer__link {
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	.footer__link_type_tel {
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	.footer__nav {
+		margin: 0px 0 30px 0;
+	}
+
+	.footer__nav-list {
+		margin: 0 33px 0 0;
+		max-width: 115px;
+	}
+
+	.footer__nav-list:nth-of-type(2) {
+		display: none;
+	}
+
+	.footer__nav-list:last-of-type {
+		margin: 0;
+	}
+
+	.footer__nav-list_type_mobile {
+		display: block;
+	}
+
+	.footer__nav-list-item {
+		margin-bottom: 8px;
+	}
+
+	.footer__contacts {
+		margin-left: 0;
+		text-align: left;
+	}
+
+	.footer__contacts-list-item {
+		margin-bottom: 8px;
+	}
+
+	.footer__contacts-icon {
+		margin-left: 4px;
+		max-width: 24px;
+	}
+
+	.footer__contacts-paragraph {
+		font-size: 14px;
+		line-height: 17px;
+	}
+	
+	.footer__bottom {
+		align-items: flex-start;
+	}
+}
