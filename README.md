@@ -4,7 +4,7 @@
 
 **Deploy**
 
-* [Ссылка на проект](https://msilkov.github.io/amoCRM-test-welbex/)
+* [Ссылка на проект](https://msilkov.github.io/amoCRM-task-2/)
 
 **Figma**
 
